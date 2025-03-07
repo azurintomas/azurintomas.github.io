@@ -1,2 +1,50 @@
-/* Estilos generales */
-h1{color: blue;}
+body{
+    font-family: sans-serif;
+
+}
+.info{
+    background-color: rgb(48, 99, 252);
+    padding: 15px;
+    
+
+}
+.info a {
+   font-size: 1.1em;
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+
+  
+}
+.info a img{
+   margin-inline: 50px;
+   margin-right: 3px;
+}
+.menu{
+    background-color: rgb(33, 172, 242);
+    padding: 10px;
+    
+    
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 1fr;
+    flex-wrap: wrap;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    margin: 15px;
+    padding: 15px;
+
+   
+}
+
+.menu img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 10em;
+}
+
+
